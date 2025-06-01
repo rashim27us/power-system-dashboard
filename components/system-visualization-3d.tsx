@@ -139,7 +139,7 @@ export default function SystemVisualization3D({ data }: SystemVisualization3DPro
         ctx.font = `${10 * perspective}px sans-serif`
         ctx.textAlign = "center"
         ctx.fillText(component.name, projectedX, projectedY - component.size * perspective - 10)
-        ctx.fillText(`${component.value.toFixed(1)} MW`, projectedX, projectedY + component.size * perspective + 15)
+        ctx.fillText(`${component.value.toFixed(1)} kW`, projectedX, projectedY + component.size * perspective + 15)
       })
 
       // Draw connections

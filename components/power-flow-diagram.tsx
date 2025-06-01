@@ -99,7 +99,7 @@ export default function PowerFlowDiagram({ data, detailed = false }: PowerFlowDi
 
       // Value
       ctx.font = "bold 10px sans-serif"
-      ctx.fillText(`${value.toFixed(1)} MW`, pos.x, pos.y + 45)
+      ctx.fillText(`${value.toFixed(1)} kW`, pos.x, pos.y + 45)
     })
 
     if (detailed) {
